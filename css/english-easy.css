@@ -15,7 +15,13 @@
 }
 
 .text{
-  display: none;
+  display:none;
+}
+
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('../fonts/Neucha.ttf');
 }
 
 
@@ -116,9 +122,9 @@ a:hover{
 }
 
 .buttons .sharer:hover{
-  background-color: black;
-  color: white;
+  color: red;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 #rainbow {
