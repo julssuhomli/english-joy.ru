@@ -1,0 +1,141 @@
+@media (max-width: 1057px) {
+  body .text {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Neucha', cursive;
+
+  }
+  body .text-wrap{
+    word-wrap: break-word;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    margin-top: 5px;
+  }
+}
+
+.text{
+  display: none;
+}
+
+
+body{
+  margin: 0px;
+  font-family: 'Neucha', cursive;
+}
+
+header{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  color:black;
+}
+
+h2{
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+p{
+  text-align: center;
+  font-size: 40px;
+}
+
+.extra{
+  display: none;
+}
+
+.owl-carousel{
+  padding-top: 30px;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-prev{
+  background-color: transparent;
+  font-family: 'Neucha', cursive;
+  color: black;
+  transition: all 0.6s ease;
+  font-size: 25px;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-next{
+  background-color: transparent;
+  font-family: 'Neucha', cursive;
+  color: black;
+  transition: all 0.6s ease;
+  font-size: 25px;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-next:hover{
+  color: white;
+  background-color: black;
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-prev:hover{
+  color: white;
+  background-color: black;
+}
+
+.link-wrap{
+  text-align: center;
+  margin-top: 20px;
+}
+
+a{
+  color: black;
+  transition: all 0.6s ease;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 25px;
+}
+
+a:hover{
+  color: black;
+  border-radius: 5px;
+  border-bottom: 2px solid white;
+}
+
+.buttons{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.buttons .fa{
+  font-size: 25px;
+  padding: 10px;
+  line-height: 25px;
+}
+
+.buttons .sharer{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  transition: all 0.6s ease-in-out;
+}
+
+.buttons .sharer:hover{
+  background-color: black;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+}
+#vk{
+  font-size: 20px;
+}
+#twitter{
+  font-size: 20px;
+}
+#rainbow {
+  background-image:url(../img/rrr.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
