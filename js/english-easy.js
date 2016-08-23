@@ -21,13 +21,6 @@ $(document).ready(function(){
     }
     });
 
-    // $(".fairy-button").mouseover(function(){
-    //   $('body').css({'background': 'url(blue-dirt.jpg) fixed', 'background-size': '100% 100%'});
-    // })
-    //
-    // $(".fairy-button").mouseout(function(){
-    //   $('body').css({'background': 'url(background-egg-yellow.jpg) fixed', 'background-size': '100% 100%'});
-    // });
     $(".fairy-button").mouseover(function(){
         $("#rainbow").fadeIn(2000);
     });
