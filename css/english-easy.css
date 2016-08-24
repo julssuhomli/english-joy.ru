@@ -144,3 +144,8 @@ a:hover{
   z-index: -1;
   display: none;
 }
+
+#chat-skype{
+  color: #12A5F4;
+  border: none;
+}
